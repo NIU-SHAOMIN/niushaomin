@@ -1,0 +1,204 @@
+/*--- Bootstrap Padding Fix ---*/
+[class*="col-"]{
+  padding: 1rem;
+}
+
+/* html, body{
+   height: 100%;
+   width: 100%;
+   font-family: 'Poppins',sans-serif;
+   color: #222;
+} */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 50% ;
+}
+.card-body {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#home{
+  padding-top: 3rem;
+  transform: translateY(65%);
+  text-align: center;
+
+}
+
+
+
+/*--CV--*/
+@import url(https://fonts.googleapis.com/css?family=Jura);
+body{
+  font-family:'Jura';
+  background:#fff;
+  margin:0;
+  padding:0;
+}
+section{
+  height:50vw;
+  width:100vw;
+}
+.content{
+  position:relative;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  -webkit-transform:translate(-50%, -50%);
+}
+.logo{
+  position:relative;
+  left:50%;
+  margin-top:10px;
+  margin-left:-121px;
+  background:transparent;
+}
+.desc{
+  font-size:1em;
+  color:#000;
+  text-align:center;
+  text-transform:uppercase;
+  opacity:0;
+  letter-spacing:-5px;
+  animation: letterSpacing 1s ease-in-out 1s;
+  -webkit-animation: letterSpacing 1s ease-in-out 1s;
+  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+}
+.desc2{
+  font-size:5vw;
+  color:#000;
+  text-align:left;
+  text-transform:uppercase;
+  opacity:0;
+  letter-spacing:-5px;
+  animation: letterSpacing 1s ease-in-out 1s;
+  -webkit-animation: letterSpacing 1s ease-in-out 1s;
+  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+}
+
+@keyframes letterSpacing{
+  0%{
+    letter-spacing:-5px;
+    opacity:0;
+  }
+  100%{
+    letter-spacing:1px;
+    opacity:1;
+  }
+}
+@-webkit-keyframes letterSpacing{
+  0%{
+    letter-spacing:-5px;
+    opacity:0;
+  }
+  100%{
+    letter-spacing:1px;
+    opacity:1;
+  }
+}
+
+
+
+
+
+
+
+
+/* .card-body>div {
+  padding: 5px;
+}
+.card{
+    height: 270px;
+    display: inline-block;
+          vertical-align: top;
+  }
+     .back{
+      display:none;
+     } */
+
+/* .carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+/* .carousel-caption h1{
+  font-size: 500% ;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px 10px #000;
+}
+.carousel-caption h3{
+  font-size: 200% ;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px 10px #000;
+} */
+
+
+
+footer{
+  position: relative;
+  margin-top: -60px; /*等于footer的高度*/
+  height: 100%;
+  clear:both;
+  background: #3d3d3d;
+  color:#FFF;
+  letter-spacing:1px;
+
+}
+
+hr.light{
+  border-top: 0.5px solid #d5d5d5;
+
+}
+
+.link-right {
+    width: 60px;
+    height: 100%;
+    border-right: solid #ACC0D8 1px;
+}
+
+
+
+/* RESUME */
+
+/* .div-relative{position:relative; color:#000; width:500px; height:400px} */
+/* .div-relative{position:relative;color:#000; }
+
+.div-3{ position:absolute; left:330px; top:300px; background:white; width:700px; height:700px}
+
+.div-2{ position:absolute; left:80px; top:120px; background:#DCCBBF; width:500px; height:500px}
+
+.div-1{ position:absolute; left:80px; top:80px;  width:300px; height:300px} */
+
+
+.div-relative{position:relative;color:#000;}
+
+.div-3{ position:absolute; left:30%; top:7%; background:white; width:45vw; height:40vw;text-align:right; font-size: 2vw;}
+
+.div-2{ position:absolute; left:6%; top:9%;; width:25vw; height:30vw}
+
+.div-1{ position:absolute; left:4%; top:7%;  width:2vw; height:2vw}
+
+/*
+.jianli{position:absolute; top:100%; background:#F4F2F3; width:100%; height:100%;text-align:center; font-size: 2vw} */
